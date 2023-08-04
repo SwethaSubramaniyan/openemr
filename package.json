@@ -35,7 +35,7 @@
     "colors": "1.4.0",
     "del": "6.1.1",
     "glob": "8.1.0",
-    "gulp": "4.0.2",
+    "gulp": "^4.0.2",
     "gulp-append-prepend": "1.0.9",
     "gulp-csso": "4.0.1",
     "gulp-dart-sass": "1.0.2",
@@ -44,9 +44,9 @@
     "gulp-postcss": "9.0.1",
     "gulp-rename": "2.0.0",
     "gulp-sourcemaps": "3.0.0",
-    "gulp-watch": "5.0.1",
+    "gulp-watch": "^4.0.1",
     "minimist": "1.2.8",
-    "napa": "3.0.0",
+    "napa": "^3.0.0",
     "postcss": "8.4.21",
     "replace-in-file": "6.3.5",
     "stylelint": "14.16.1",
@@ -58,13 +58,13 @@
   "dependencies": {
     "@eastdesire/jscolor": "2.5.1",
     "@fortawesome/fontawesome-free": "6.3.0",
-    "angular": "1.8.3",
+    "angular": "^1.6.10",
     "angular-sanitize": "1.8.3",
     "backbone": "1.4.1",
     "bootstrap": "4.6.2",
     "bootswatch": "4.6.2",
     "chart.js": "4.2.1",
-    "checklist-model": "1.0.0",
+    "checklist-model": "^0.6.0",
     "ckeditor4": "4.20.2",
     "datatables.net": "1.13.4",
     "datatables.net-bs4": "1.13.4",
@@ -75,7 +75,7 @@
     "datatables.net-scroller": "2.1.1",
     "datatables.net-scroller-jqui": "2.1.1",
     "dropzone": "5.9.3",
-    "dwv": "0.27.1",
+    "dwv": "^0.32.1",
     "flot": "4.2.3",
     "hotkeys-js": "3.10.1",
     "i18next": "22.4.11",
@@ -95,7 +95,9 @@
     "purecss": "3.0.0",
     "select2": "4.0.13",
     "sortablejs": "1.15.0",
+    "source-map-url": "^0.4.1",
     "underscore": "1.13.6",
+    "urix": "^0.1.0",
     "validate.js": "0.13.1"
   },
   "napa": {
@@ -110,5 +112,8 @@
   },
   "napa-config": {
     "cache": false
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
   }
 }

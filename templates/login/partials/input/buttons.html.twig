@@ -13,7 +13,7 @@ Render the login button, and google signin button, if set
 #}
 {% block buttons %}
 <div class="{{ button_container_class_list|default(['form-group', 'd-flex', 'justify-content-between'])|join(' ') }}">
-    <button id="login-button" class="btn btn-primary flex-fill" type="submit" onclick="transmit_form(this)">{{ "Login"|xlt }}</button>
+    <button id="login-button" class="btn btn-primary flex-fill" type="submit" onclick="transmit_form(this)">{{ "Login | Sign-In"|xlt }}</button>
     {% if displayGoogleSignin %}
         <div class="g_id_signin flex-fill" data-type="standard"></div>
     {% endif %}
